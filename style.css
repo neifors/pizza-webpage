@@ -11,8 +11,6 @@ main{
     height: 100vh;
     color: white;
     background-size: cover;
-}
-main {
     text-align: right;
     padding: 100px;
 }
