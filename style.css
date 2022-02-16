@@ -1,5 +1,35 @@
-header{
-    background-image: url(https://th.bing.com/th/id/R.df5e74dacf66c32e95c03e77cdfe451f?rik=6Z6SxeRGcsFJEA&riu=http%3a%2f%2fx-portpizzeria.ch%2fwp-content%2fuploads%2f2016%2f09%2fBackground_Banner_2.jpg&ehk=f3wbJlHE%2bt1RYWhG9gBiDbor2UfkaF%2f7mmIV4%2bjAyk8%3d&risl=&pid=ImgRaw&r=0); 
-    height: 400px; 
+header h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
+ 
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url( https://th.bing.com/th/id/R.1e4ffc0c6cd666e77d859677e564e09d?rik=6l%2fYWj%2bIX691Lg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f11%2f17%2f371885-food-pizza.jpg&ehk=ZOPirdd%2beQO5Dv0v5a4DQR9vZNhUb8HKedOfznD%2b8MM%3d&risl=&pid=ImgRaw&r=0);
+    height: 100vh;
     color: white;
+    background-size: cover;
+}
+main {
+    text-align: right;
+    padding: 100px;
+}
+.main-wrapper{
+    margin: 120px 50px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+button a:hover{
+    color:black;
+}
+.title{
+    text-align: center;
+    font-size: 100px;
+/*     text-shadow: 3px 3px rgb(75, 64, 64); */
 }
